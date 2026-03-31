@@ -4,7 +4,7 @@ import com.ibm.demo.day1.fundas.*;
 
 public class Employee {
 
-	s
+	
 	static int officeNum;
 	
 	int id;
