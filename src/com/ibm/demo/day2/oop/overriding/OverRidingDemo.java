@@ -5,6 +5,11 @@ public class OverRidingDemo {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+		Calc calc1 = new Calc();
+		calc1.addNums(10, 20);
+		
+		AdvanceCalc calc2 = new AdvanceCalc();
+		calc2.addNums(10, 20);
 	}
 
 }
