@@ -1,0 +1,4 @@
+An app for macOS, iOS, watchOS, and visionOS that 
+allows users to place custom text, notes, tasks, 
+or reminders as widgets on the Lock Screen, Home Screen, 
+or desktop. It supports iCloud sync and text styling.
