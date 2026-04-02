@@ -1,5 +1,9 @@
 package com.ibm.demo.day3.enums;
 
-public enum DayOfTheWeek {
+public class DayOfTheWeek {
+	
+	public static void main(String[] args) {
+		
+	}
 //	MONDAY,TUESDAY,WEDNESDAY,THURSDAY,FRIDAY,SATURDAY
 }
