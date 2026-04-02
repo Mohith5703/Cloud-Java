@@ -25,6 +25,17 @@ public class StreamsApiDemo {
 		System.out.println("3. List of employees using forEach method: ");
 		employees.forEach(emp-> System.out.println(emp));
 
+		System.out.println("4. List of employees with salary > 91000: ");
+		employees.forEach((emp) -> {
+			if (emp.salary > 91000)
+				System.out.println(emp);
+		});
+
+		System.out.println("5. Increase employees' salary by 10%: ");
+
+		List<Employee> updatedEmployees = employees.stream()
+				.map(e -> new Employee(e.getId(), e.getName(), e.getSalary() * 1.10)).toList();
+		updatedEmployees.forEach(e -> System.out.println(e.toString()));
 
 	}
 
